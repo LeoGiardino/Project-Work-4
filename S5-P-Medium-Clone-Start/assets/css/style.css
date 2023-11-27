@@ -1,0 +1,336 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+}
+
+
+
+nav {
+    display: flex;
+    padding: 2% 5%;
+    border-bottom: 1px solid black;
+    background-color: #ffc017;
+    position: fixed; /* Cambiato da sticky a fixed */
+    top: 0;
+    width: 90%;
+    z-index: 30;
+}
+
+nav div:first-child{
+    width: 60%;
+}
+
+nav div:last-child{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav div:last-child > a{
+    text-decoration: none;
+    color: #191919;
+}
+
+nav div:last-child > button{
+    border-radius: 20px;
+    color: white;
+    background-color: #191919;
+    border: none;
+    padding: 3% 5%;
+}
+
+.hero {
+    background-color: #ffc017;
+    padding: 0 5%;
+    border-bottom: 1px solid black;
+    display: flex;
+    margin-top: 90px;
+}
+
+.hero div:first-child {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.hero div:last-child {
+    width: 50%;
+}
+
+.hero div > h1{
+    font-size: 5em;
+}
+
+.hero div > p{
+    font-size: 1.2em;
+    padding-right: 30%;
+}
+
+.hero div > button {
+    width:40%;
+    border-radius: 30px;
+    color: white;
+    background-color: #191919;
+    border: none;
+    padding: 2% 5%;
+    font-size: 1.1em;
+}
+
+
+article {
+    padding: 0 5%;
+    border-bottom: 1px solid rgb(117, 117, 117);
+}
+
+article > div:first-child {
+    display: flex;
+    align-items: center;
+    padding: 5% 0 2% 0;
+    font-weight: bold;
+}
+
+article > div:first-child > p {
+    padding-left: 2%;
+    
+}
+
+.trending{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.trending > div {
+    display: flex;
+    height: 150px;
+    width: 330px; 
+    margin-bottom: 4%;
+}
+
+.informazioni {
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 3%;
+    padding-top: 4%;
+}
+
+.primoTxt {
+    font-weight: bold;
+    font-size: 1.1em;
+    padding-bottom: 5%;
+}
+
+.imgConNome {
+    display: flex;
+    align-items: center;
+    padding-bottom: 5%;
+}
+
+.imgConNome > p{
+    padding-left: 5%;
+    
+}
+
+.trending div > div:first-child > span {
+    color: rgb(230, 230, 230);
+    line-height: 38px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.trending div div:last-child img {
+    border-radius: 20px;
+    width: 10%;
+}
+.secondText{
+    display: flex;
+    width: 55%;
+    align-items: center;
+}
+
+.stella{
+    display: flex;
+}
+
+.stella p > span{
+
+    padding: 0 3%;
+}
+
+.stella p > img{
+
+    width: 40%;
+}
+
+/* ARTICOLI */
+
+.articoli {
+    display: flex;
+    padding: 7% 0;
+    width: 100%;
+   
+}
+
+section {
+    padding: 0 5%;
+}
+.riga {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.metaRiga {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+
+}
+.profilo {
+    display: flex;
+    align-items: center;
+    padding-bottom: 3%;
+}
+
+.profilo > p {
+    font-weight: bold;
+    font-size: 1.1em;
+    padding-left: 4%;
+}
+
+.profilo > img {
+    border-radius: 20px;
+    width: 7%;
+    border: 1px solid rgb(230, 230, 230); ;
+}
+
+.testo p:first-child {
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+
+.testo p:last-child {
+    padding-bottom: 2%;
+    color:  rgb(117, 117, 117);
+    line-height: 23px;
+    padding-right: 4%;
+}
+
+.icone {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.icone div:first-child {
+    width: 90%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.terzoText {
+    display: flex;
+    width: 44%;
+    align-items: center;
+}
+
+.icone div > button {
+    border-radius: 20px;
+    border: 0;
+    padding: 2% 3%;
+    margin-right: 10px;
+    color:  rgb(117, 117, 117);
+}
+
+.icone div > img {
+    width: 7%;
+}
+
+.icone div:last-child > img {
+    width: 30px;
+}
+
+.punto {
+    padding: 0 3%;
+}
+
+.bigImg {
+    width: 25%;
+}
+.bigImg > img{
+    height: 100%;
+    width: 220px;
+ 
+}
+
+.generale {
+    width: 100%;
+    height: 100vh;
+}
+
+.riga2{
+    padding-left: 2%;
+    width:100%;
+    border-bottom: 1px solid rgb(117, 117, 117);
+    padding-bottom: 50px;
+}
+
+
+/* ASIDE */
+
+.riga2 >p {
+    font-weight: bold; 
+    
+}
+
+.contenitore {
+    display: flex;
+    flex-wrap: wrap;
+    height: 180px;
+    justify-content: space-between;
+    align-items: end;
+   
+    
+}
+
+.contenitore div > a {
+    text-decoration: none;
+    color: rgb(117, 117, 117);
+    border: 1px solid rgb(117, 117, 117);
+    padding: 10px;
+}
+
+.container {
+   display: flex; 
+   width: 100%;
+   margin-top: 7%;
+}
+
+.destra {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.sinistra {
+    width: 60%
+}
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+    align-items: center;
+    line-height: 2em;
+}
+
+.links > a {
+    text-decoration: none;
+    color: rgb(117, 117, 117);
+    width: 60px;
+}
